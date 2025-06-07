@@ -1,0 +1,34 @@
+[project]
+name = "deep-learning"
+description = "A collection of deep learning playgrounds and utilities."
+version = "0.0.1"
+requires-python = ">=3.10,<3.11"
+
+dependencies = [
+    "transformers",
+    "torch",
+    "accelerate",
+    "huggingface-hub",
+    "ipykernel",
+    "ipywidgets",
+    "jupyter",
+    "ucimlrepo",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "seaborn",
+    "pandas",
+    "scikit-learn",
+    "joblib",
+    "graphviz",
+    "azureml-core~=1.55.0",
+    "azureml-sdk~=1.55.0",
+    "ruamel.yaml<0.18",  # Prevent build failure on macOS
+]
+
+[tool.pdm]
+distribution = false
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

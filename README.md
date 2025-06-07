@@ -1,12 +1,12 @@
 # Deep Learning
 ![Website](https://img.shields.io/badge/launch-website-yellow)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fuzzy-tribble/deep-learning-experiments/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fuzzy-tribble/deep-learning/main)
 
 This repo contains a collection of deep learning experiments, playgrounds, proof of concepts, templates and experiements with different compute backends, etc. As the ML environment changes this repo allows for quick experimentation with new ideas, algorithms, and techniques. Also useful for demos or teaching purposes.
 
 # Usage
-- For browsing and demos [reference the workbook content online](https://fuzzy-tribble.github.io/deep-learning-experiments)
-- Or run workbooks interactively online here: https://mybinder.org/v2/gh/fuzzy-tribble/deep-learning-experiments/main
+- For browsing and demos [reference the workbook content online](https://fuzzy-tribble.github.io/deep-learning)
+- Or run workbooks interactively online here: https://mybinder.org/v2/gh/fuzzy-tribble/deep-learning/main
 - Or run workbooks interactively on local machine like this:
 
 ```bash

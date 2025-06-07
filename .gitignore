@@ -1,3 +1,10 @@
+.env
+
+gcp-creds*
+
+# openevolve
+openevolve
+
 # azure stuff
 config.json
 
